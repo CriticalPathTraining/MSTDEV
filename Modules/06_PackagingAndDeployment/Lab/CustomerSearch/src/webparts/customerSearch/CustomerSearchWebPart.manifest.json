@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "0f29c521-52f9-4236-85d7-7af154bc3b32",
+  "alias": "CustomerSearchWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "MSD385 Web Parts" },
+    "title": { "default": "Customer Search" },
+    "description": { "default": "A demo web part for CPT lab exercises. " },
+    "officeFabricIconFontName": "Search",
+    "properties": {}
+  }]
+}

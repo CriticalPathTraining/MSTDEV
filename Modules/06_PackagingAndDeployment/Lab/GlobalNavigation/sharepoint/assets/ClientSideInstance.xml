@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="GlobalNavigationBanner"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="c3555bbc-1c64-48ad-97e5-fec284f5344b"
+        Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </ClientSideComponentInstance>
+</Elements>

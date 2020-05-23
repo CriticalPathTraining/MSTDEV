@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "title": "Microsoft Graph Demo Webparts",
+    "name": "microsoft-graph-demo-webparts",
+    "id": "469592f4-01ae-4659-b7be-354df27bae83",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,  
+    "webApiPermissionRequests": [
+      {
+        "resource": "Windows Azure Active Directory",
+        "scope": "User.Read"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.ReadBasic.All"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/microsoft-graph-demo-webparts.sppkg"
+  }
+}

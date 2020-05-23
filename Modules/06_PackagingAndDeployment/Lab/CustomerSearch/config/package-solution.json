@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "title": "Customer Seach",
+    "name": "customer-search",
+    "iconPath": "assets/AppIcon.png",
+    "id": "aadd99db-2595-4073-a4c4-619e821c6087",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/customer-search.sppkg"
+  }
+}

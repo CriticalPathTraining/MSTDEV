@@ -1,0 +1,20 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "141a3abd-6e14-425c-aa11-e79d863efe18",
+  "alias": "HelloMsGraphWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Critical Path Training" },
+    "title": { "default": "Hello MS Graph API" },
+    "description": { "default": "A demo SPFx web part which accesses the Microsoft Graph API" },
+    "officeFabricIconFontName": "TestUserSolid",
+    "properties": {}
+  }]
+}
+
+
